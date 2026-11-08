@@ -50,42 +50,10 @@ export default function DemoFooter() {
 
         {/* Legal */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-          <p>© 2024 Highland Holiday Lighting Co. All rights reserved.</p>
+          <span>© 2024 Highland Holiday Lighting Co. All rights reserved.</span>
           <div className="flex gap-6">
             <span className="hover:text-slate-400 cursor-pointer">Privacy Policy</span>
             <span className="hover:text-slate-400 cursor-pointer">Terms of Service</span>
-          </div>
-        </div>
-
-        {/* Demo Badge */}
-        <div className="mt-12 pt-8 border-t border-slate-800">
-          <div className="max-w-2xl mx-auto border border-slate-700 p-6 sm:p-8">
-            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
-              <div className="space-y-1.5">
-                <h4 className="text-lg text-white font-bold">
-                  Built by <span className="text-amber-400">Olamide Titus</span>
-                </h4>
-              </div>
-
-              <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto shrink-0">
-                <a
-                  href="https://m.me/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-6 py-2.5 bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold text-sm flex items-center justify-center gap-2 transition-all"
-                >
-                  DM Me on Messenger
-                </a>
-                <a
-                  href="https://instagram.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-5 py-2.5 bg-white/10 hover:bg-white/15 text-white font-semibold text-sm flex items-center justify-center gap-2 border border-white/20 transition-all"
-                >
-                  Instagram DM
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </div>
