@@ -20,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rooftop", Arial, sans-serif !important;
+  font-family: var(--font-rooftop), "Rooftop", "Plus Jakarta Sans", Arial, sans-serif !important;
 }
 
 html {

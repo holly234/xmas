@@ -1,5 +1,13 @@
 import type { Metadata } from "next";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
+
+const rooftopFont = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-rooftop",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Highland Holiday Lighting | Premier Estate Christmas Light Displays",
@@ -13,8 +21,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className="antialiased bg-white text-slate-900 selection:bg-amber-100 selection:text-amber-900">
+    <html lang="en" className={rooftopFont.variable}>
+      <body className={`${rooftopFont.className} antialiased bg-white text-slate-900 selection:bg-amber-100 selection:text-amber-900`}>
         {children}
       </body>
     </html>

@@ -65,9 +65,6 @@ export default function DemoFooter() {
                 <h4 className="text-lg text-white font-bold">
                   Built by <span className="text-amber-400">Olamide Titus</span>
                 </h4>
-                <p className="text-sm text-slate-400">
-                  Want a high-converting website like this for your business?
-                </p>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto shrink-0">
